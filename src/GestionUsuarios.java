@@ -20,11 +20,12 @@ public class GestionUsuarios {
       while (isUser == false) {
 
          nombre = sc.nextLine();
-
+         
          if (nombre.equals(persona.getNombre())) {
             System.out.println("Escribe tu contraseña");
             contrasena = sc.nextLine();
             if (contrasena.equals(persona.getContrasena())) {
+               contrasena = sc.nextLine();
 
             }
          } else {
