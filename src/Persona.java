@@ -1,14 +1,16 @@
-public class Persona{
+import java.util.Scanner;
+
+public class Persona {
+    public static Scanner sc = new Scanner(System.in);
+
     private String nombre;
     private String contrasena;
-    private String apes;
     private boolean admin;
 
-
-    public Persona(){
-        this.nombre="";
-        this.contrasena="1234";
-        this.admin=true;
+    public Persona() {
+        this.nombre = "";
+        this.contrasena = "1234";
+        this.admin = true;
     }
 
     public Persona(String nombre, String contrasena, boolean admin) {
@@ -16,6 +18,8 @@ public class Persona{
         this.contrasena = contrasena;
         this.admin = admin;
     }
+
+
     public String getNombre() {
         return this.nombre;
     }
@@ -43,11 +47,7 @@ public class Persona{
     public void setAdmin(boolean admin) {
         this.admin = admin;
     }
-    public String getApes(){
-        return this.apes;
-    }
-    public void setApes(String apes){
-        this.apes=apes;
-    }
+
+   
 
 }
