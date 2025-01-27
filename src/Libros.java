@@ -57,6 +57,17 @@ public class Libros {
         if (buscador==6){}
     }
 
+
+
+
+
+
+
+
+
+
+
+    
     public String getTitulo() {
         return this.titulo;
     }
