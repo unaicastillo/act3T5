@@ -30,6 +30,8 @@ public class GestionDeLibros {
             Alm[i]=librosAElegir[i];
         }
 
+        
+
 
     }
 
