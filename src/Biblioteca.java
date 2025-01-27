@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Biblioteca {
@@ -10,8 +12,6 @@ public class Biblioteca {
         Persona admin1 = new Persona("babuku", "3456", true);
         Persona admin2 = new Persona("pablo", "7890", true);
         System.out.println("Escribe tu nombre");
-            
-
         gestor.buscarUser();
         
     }

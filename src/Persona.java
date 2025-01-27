@@ -48,6 +48,15 @@ public class Persona {
         this.admin = admin;
     }
 
+
+    @Override
+    public String toString() {
+        return "{" +
+            " nombre='" + getNombre() + "'" +
+            ", contrasena='" + getContrasena() + "'" +
+            ", admin='" + isAdmin() + "'" +
+            "}";
+    }
    
 
 }

@@ -35,7 +35,7 @@ public class GestionUsuarios {
 
    }
 
-   public void registrarUsuarios(Persona usuariPersona, Persona usuarioActivo) {
+   public void registrarUsuarios(Persona usuariPersona) {
       if (usuariPersona != null) {
          registro[posicion] = usuariPersona;
          posicion++;
