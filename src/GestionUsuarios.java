@@ -6,9 +6,10 @@ public class GestionUsuarios {
 
    private Persona[] registro;
    private int posicion;
+   private int tam;
 
    public GestionUsuarios() {
-      this.registro = new Persona[100];
+      this.registro = new Persona[tam];
       this.posicion = 0;
    }
 

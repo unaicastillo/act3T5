@@ -1,7 +1,5 @@
-import java.util.Scanner;
 
 public class Persona {
-    public static Scanner sc = new Scanner(System.in);
 
     private String nombre;
     private String contrasena;
