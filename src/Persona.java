@@ -9,7 +9,7 @@ public class Persona {
 
     public Persona() {
         this.nombre = "";
-        this.contrasena = "1234";
+        this.contrasena = "";
         this.admin = true;
     }
 
@@ -18,7 +18,11 @@ public class Persona {
         this.contrasena = contrasena;
         this.admin = admin;
     }
-
+    public void newPersona(String nombre, String contrasena,boolean admin){
+        nombre=sc.nextLine();
+        contrasena=sc.nextLine();
+        admin=false;
+    }
 
     public String getNombre() {
         return this.nombre;
