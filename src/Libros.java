@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Libros {
 
 
@@ -25,7 +24,17 @@ public class Libros {
         this.disponible=disponible;
     }
 
+    
 
+    @Override
+    public String toString() {
+        return "{" +
+            " titulo='" + getTitulo() + "'" +
+            ", autor='" + getAutor() + "'" +
+            ", categoria='" + getCategoria() + "'" +
+            ", disponible='" + isDisponible() + "'" +
+            "}";
+    }
 
 
 
@@ -52,9 +61,6 @@ public class Libros {
 
         }
         if (buscador==3){}
-        if (buscador==4){}
-        if (buscador==5){}
-        if (buscador==6){}
     }
 
 
@@ -67,7 +73,7 @@ public class Libros {
 
 
 
-    
+
     public String getTitulo() {
         return this.titulo;
     }
